@@ -1,4 +1,4 @@
-# 📚 Interactive Book List App with ASP.NET Core & Angular
+# 📚 Bookstore Management System
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)
 ![Angular](https://img.shields.io/badge/Angular-17-red)
