@@ -33,7 +33,8 @@ This application allows users to browse books, and admins to manage books, categ
 ---
 
 ## 📸 Screenshot
-![Book](demo.PNG)
+-- Bookstore Home
+![Book](book-store-home.PNG)
 
 ---
 
