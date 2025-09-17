@@ -4,8 +4,11 @@
 ![Angular](https://img.shields.io/badge/Angular-17-red)
 ![Fullstack](https://img.shields.io/badge/Stack-ASP.NET%20%2B%20Angular-green)
 
+---
+
 A simple full-stack Bookstore Management application built using **ASP.NET Core**, **Angular**, and **SQL Server**. 
 This application allows users to browse books, and admins to manage books, categories, and authors.
+
 ---
 
 ## 🚀 Features
