@@ -33,8 +33,18 @@ This application allows users to browse books, and admins to manage books, categ
 ---
 
 ## 📸 Screenshot
--- Bookstore Home
+- Bookstore Swagget UI:
+![Book](book-store-swagger.PNG)
+
+- Bookstore Home:
 ![Book](book-store-home.PNG)
+
+- Bookstore Add Book Form:
+![Book](before-add-details.PNG)
+![Book](after-add-details.PNG)
+
+- Bookstore List:
+![Book](list.PNG)
 
 ---
 
