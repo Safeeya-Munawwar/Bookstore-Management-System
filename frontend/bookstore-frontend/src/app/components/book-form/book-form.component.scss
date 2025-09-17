@@ -1,0 +1,79 @@
+.book-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 25px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      .form-group {
+        display: flex;
+        flex-direction: column;
+  
+        label {
+          margin-bottom: 6px;
+          font-weight: 500;
+          color: #333;
+        }
+  
+        input {
+          padding: 10px 12px;
+          border: 1px solid #ccc;
+          border-radius: 6px;
+          font-size: 1rem;
+          transition: border 0.3s, box-shadow 0.3s;
+  
+          &:focus {
+            outline: none;
+            border-color: #3880ff;
+            box-shadow: 0 0 5px rgba(56, 128, 255, 0.3);
+          }
+        }
+  
+        .error {
+          color: #ff4d4f;
+          font-size: 0.85rem;
+          margin-top: 4px;
+        }
+      }
+  
+      button {
+        padding: 12px 20px;
+        background-color: #3880ff;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+  
+        &:hover:not(:disabled) {
+          background-color: #2466c5;
+        }
+  
+        &:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .book-form-container {
+      margin: 20px 15px;
+      padding: 20px;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+<ion-app>
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="navbar ion-align-items-center ion-justify-content-between">
+
+        <ion-col size="6" size-md="3">
+          <a routerLink="/" class="nav-brand">BookStore</a>
+        </ion-col>
+
+        <ion-col size="6" size-md="9" class="nav-links ion-text-end">
+          <a routerLink="/">Home</a>
+          <a routerLink="/bookForm">Add Book</a>
+          <a routerLink="/books">Books</a>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+  <router-outlet></router-outlet>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <p>&copy; 2025 BookStore | Developed by Safeeya Munawwar</p>
+  </ion-toolbar>
+</ion-footer>
+</ion-app>
+

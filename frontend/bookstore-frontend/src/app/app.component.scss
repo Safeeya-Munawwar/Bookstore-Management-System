@@ -1,0 +1,122 @@
+
+html, body, ion-app, ion-content.main-content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* brand left, links right */
+  padding: 10px 0;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3880ff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* space between links */
+  justify-content: flex-end; /* align links to right */
+  align-items: center;
+}
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3880ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* stack links on mobile */
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 5px;
+  }
+}
+
+
+/* Footer styling */
+ion-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Main content padding to prevent overlapping header/footer */
+.main-content {
+  padding: 20px;
+  --background: #fff;
+}
+
+/* Optional: style headings in routed components */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* Tables in BookListComponent */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #e8e8e8;
+}
+
+/* Form inputs in BookFormComponent */
+input, select, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3880ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    text-align: right;
+    margin-top: 5px;
+  }
+}

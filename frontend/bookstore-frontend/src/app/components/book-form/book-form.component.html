@@ -1,0 +1,51 @@
+<div class="book-form-container">
+    <h2>Add New Book</h2>
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
+      
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input id="title" formControlName="title" type="text" />
+        <div *ngIf="bookForm.get('title')?.invalid && bookForm.get('title')?.touched" class="error">
+          Title is required
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="author">Author</label>
+        <input id="author" formControlName="author" type="text" />
+        <div *ngIf="bookForm.get('author')?.invalid && bookForm.get('author')?.touched" class="error">
+          Author is required
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="isbn">ISBN</label>
+        <input id="isbn" formControlName="isbn" type="text" />
+        <div *ngIf="bookForm.get('isbn')?.invalid && bookForm.get('isbn')?.touched" class="error">
+          ISBN is required
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="publishDate">Publish Date</label>
+        <input id="publishDate" formControlName="publishDate" type="date" />
+        <div *ngIf="bookForm.get('publishDate')?.invalid && bookForm.get('publishDate')?.touched" class="error">
+          Publish Date is required
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input id="email" formControlName="email" type="email" />
+        <div *ngIf="bookForm.get('email')?.invalid && bookForm.get('email')?.touched" class="error">
+          Valid Email is required
+        </div>
+      </div>
+  
+      <button type="submit" [disabled]="bookForm.invalid || submitting">
+        {{ submitting ? 'Submitting...' : 'Add Book' }}
+      </button>
+  
+    </form>
+  </div>
+  
