@@ -3,6 +3,7 @@
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet)
 ![Angular](https://img.shields.io/badge/Angular-17-red)
 ![Fullstack](https://img.shields.io/badge/Stack-ASP.NET%20%2B%20Angular-green)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-blue)
 
 ---
 
