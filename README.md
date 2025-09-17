@@ -68,5 +68,5 @@ This application allows users to browse books, and admins to manage books, categ
 
 ---
 
-© 2025 Interactive Book List App | Built with ❤️ using Angular + ASP.NET Core
+© 2025 Bookstore Management System | Built with ❤️ using Angular + ASP.NET Core + SQL Server
 
